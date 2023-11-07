@@ -413,6 +413,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@bufbuild/protobuf@npm:^1.4.2":
+  version: 1.4.2
+  resolution: "@bufbuild/protobuf@npm:1.4.2"
+  checksum: ec5a54eb3779174161d8b2c85ffa37e249299d4dfbd51abeb89f94f7ec0d792e99d4ab401a238de28a640a722d58d1e8702b20c575601cd15b5dff3dcf469478
+  languageName: node
+  linkType: hard
+
 "@cloudflare/kv-asset-handler@npm:^0.3.0":
   version: 0.3.0
   resolution: "@cloudflare/kv-asset-handler@npm:0.3.0"
@@ -5038,6 +5045,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nuxt-app@workspace:."
   dependencies:
+    "@bufbuild/protobuf": ^1.4.2
     "@nuxt/devtools": latest
     nuxt: ^3.8.1
     vue: ^3.3.8
